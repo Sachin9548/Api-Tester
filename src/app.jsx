@@ -8,14 +8,13 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <> 
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-        <Route path="/tester" element={<Api />} />
+          <Route path="/tester" element={<Api />} />
         </Routes>
       </BrowserRouter>
-      
     </>
   );
 }
